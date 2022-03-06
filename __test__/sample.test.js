@@ -18,7 +18,7 @@ it("addition of a + b should 3", () => {
 });
 
 describe("GET /api/v1", () => {
-  it("should get a status of 200 and have a message of testing get endpoint", async () => {
+  it("should get a status of 200 and have message of testing get endpoint", async () => {
     const res = await request.get("/test");
 
     expect(res.status).toBe(200);
